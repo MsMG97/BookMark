@@ -1,0 +1,70 @@
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #f7ecde;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-size: 3.125rem;
+}
+.form {
+  border-top: 1px dashed #000;
+  border-bottom: 1px dashed #000;
+  padding-block: 1.5625rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.form h2 {
+  text-align: center;
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  font-size: 1.5625rem;
+  background-image: linear-gradient(to right, #3fa55b, #dcd211);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form input {
+  box-shadow: orange;
+}
+
+.validation-opening {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.467);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.validation-msg {
+  background-color: #ffffff;
+  width: 500px;
+  height: 270px;
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.validation-msg .msg-top div {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: black;
+}
+.sss {
+  width: 150px;
+  height: 150px;
+  background-color: #3fa55b;
+}
+
+.msg-top + p {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "Bree Serif", serif;
+}
+.msg-top span {
+  font-size: 25px;
+  cursor: pointer;
+}
